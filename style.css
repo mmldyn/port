@@ -416,3 +416,51 @@ html, body {
     margin-bottom: 50px;
     display: block; 
 }
+
+
+/*responsive*/
+@media screen and (max-width: 768px) {
+    nav {
+      text-align: center;
+      padding: 1rem 0.5rem;
+    }
+  
+    nav a {
+      display: inline-block;
+      margin: 0.5rem;
+      font-size: 0.9rem;
+    }
+  
+    .hero {
+      padding: 60px 15px;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+      line-height: 1.2;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  
+    section h2 {
+      font-size: 1.5rem;
+    }
+  
+    section p {
+      padding: 0 10px;
+    }
+  
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+  
+    .card {
+      width: 90%;
+      max-width: 100%;
+    }
+  }
+  
